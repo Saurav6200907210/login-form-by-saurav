@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background: #1abc9c;
+}
+.wrapper{
+    width: 380px;
+    background: #fff;
+    border-radius: 5px;
+}
+.wrapper .tittle{
+    line-height: 80px;
+    background: #16a085;
+    padding-left: 20px;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+.wrapper form {
+    padding: 30px 20px 25px 20px;
+}
+.wrapper form .row{
+    height: 45px;
+ 
+    margin-bottom: 15px;
+    position: relative;
+
+}
+.wrapper form .row input{
+    height: 100%;
+    width: 100%;
+    padding-left: 60px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+}
+.wrapper form .row i{
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    font-size: 18px;
+    background: #16a085;
+    border: 1px solid #16a085;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.wrapper form .button input{
+   color: #fff;
+   font-size: 18px;
+   font-weight: 500;
+   padding-left: 0px;
+   background: #16a085;
+   border: 1px solid #16a085;
+   cursor: pointer;
+}
+.wrapper form .pass{
+      margin: -8px o 15px 0;
+}
+.wrapper form .pass a{
+    color: #16a085;
+    text-decoration: none;
+}
+.wrapper form .pass a{
+    text-decoration: underline;
+}
+.wrapper form .sinup-link {
+         text-align: center;
+}
+.wrapper form .sinup-link a{
+    color: #16a085;
+    text-decoration: none;
+    text-decoration: underline;
+}
+.wrapper form .sinup-link a:hover{
+    text-decoration: underline;
+}
